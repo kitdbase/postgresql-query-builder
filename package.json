@@ -1,0 +1,70 @@
+{
+  "name": "@kitdbase/postgres-query-builder",
+  "version": "1.0.0",
+  "description": "postgres-query-builder is a lightweight and fluid library for managing Postgres databases in Node.js. It makes it easy to create Postgres queries without losing flexibility.",
+  "main": "dist/index.cjs",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    "import": "./dist/index.js",
+    "require": "./dist/index.cjs"
+  },
+  "scripts": {
+    "build": "tsup",
+    "postinstall": "node scripts/checkEnv.js"
+  },
+  "keywords": [
+    "kitdbase",
+    "postgres",
+    "kit",
+    "database",
+    "db",
+    "orm",
+    "sql",
+    "query builder",
+    "query",
+    "builder",
+    "nodejs",
+    "backend",
+    "library",
+    "database library",
+    "base de datos",
+    "sequelize alternative",
+    "lightweight orm",
+    "sql toolkit",
+    "query optimizer",
+    "typescript",
+    "javascript",
+    "async",
+    "modern database",
+    "kitdbase-postgres-orm",
+    "@kitdbase/postgres-orm",
+    "postgres-query-builder",
+    "kitdbase-postgres-query-builder",
+    "/2kitdbase/postgres-query-builder",
+    "albert",
+    "araya",
+    "@kitdbase",
+    "@albrtaraya"
+  ],
+  "author": "Albert Araya",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "pg": "^8.13.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kitdbase/postgres-query-builder"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "@types/pg": "^8.11.11",
+    "rollup": "^4.36.0",
+    "tsup": "^8.4.0",
+    "typescript": "^5.7.2"
+  }
+}
