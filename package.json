@@ -1,7 +1,7 @@
 {
-  "name": "@kitdbase/postgres-query-builder",
+  "name": "@kitdbase/postgresql-query-builder",
   "version": "1.0.0",
-  "description": "postgres-query-builder is a lightweight and fluid library for managing Postgres databases in Node.js. It makes it easy to create Postgres queries without losing flexibility.",
+  "description": "postgresql-query-builder is a lightweight and fluid library for managing Postgres databases in Node.js. It makes it easy to create Postgres queries without losing flexibility.",
   "main": "dist/index.cjs",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -37,11 +37,11 @@
     "javascript",
     "async",
     "modern database",
-    "kitdbase-postgres-orm",
-    "@kitdbase/postgres-orm",
-    "postgres-query-builder",
-    "kitdbase-postgres-query-builder",
-    "/2kitdbase/postgres-query-builder",
+    "kitdbase-postgresql-orm",
+    "@kitdbase/postgresql-orm",
+    "postgresql-query-builder",
+    "kitdbase-postgresql-query-builder",
+    "/2kitdbase/postgresql-query-builder",
     "albert",
     "araya",
     "@kitdbase",
@@ -58,7 +58,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/kitdbase/postgres-query-builder"
+    "url": "https://github.com/kitdbase/postgresql-query-builder"
   },
   "devDependencies": {
     "@types/node": "^22.10.2",
