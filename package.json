@@ -15,7 +15,7 @@
   },
   "keywords": [
     "kitdbase",
-    "postgres",
+    "postgresql",
     "kit",
     "database",
     "db",
@@ -41,7 +41,7 @@
     "@kitdbase/postgresql-orm",
     "postgresql-query-builder",
     "kitdbase-postgresql-query-builder",
-    "/2kitdbase/postgresql-query-builder",
+    "@kitdbase/postgresql-query-builder",
     "albert",
     "araya",
     "@kitdbase",
